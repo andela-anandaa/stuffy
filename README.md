@@ -1,4 +1,4 @@
-# stuffy
+# stuffly
 Andela IoT Hackathon 2016
 
 ## Setting Up Arduino
