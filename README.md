@@ -9,6 +9,8 @@ Go into libraries folder and clone the BME280 libraries
 
 ## Setting up BM8 libraries
 
+Clone the BME280 repositories to your the sketchbook libraries directory.
+
 ```bash
 cd Arduino/libraries
 
@@ -17,7 +19,7 @@ git clone git@github.com:adafruit/Adafruit_BME280_Library.git
 git clone git@github.com:adafruit/Adafruit_Sensor.git
 ```
 
-Clone this repository to your workspace.
+
 
 ## Connect the board
 
@@ -40,11 +42,12 @@ Run this to clone the stuffly repo
 git clone https://github.com/andela-anandaa/stuffly.git
 ```
 
-Make the read_arduino bash file executable
+Make the `read_arduino.sh` bash file executable
 ```bash
 chmod u+x stuffly/arduino/read_arduino.sh
 ```
 
 ## Upload the sensor to the arduino board
 Open `stuffly/arduino/arduino.ino` on the arduino IDE and click upload to push it on to the board.
+
 Run `./read_arduino.sh` to read the temperature, humidity, air pressure levels to an sqlite database.
