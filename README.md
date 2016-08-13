@@ -4,6 +4,9 @@ Stuffly is an IoT app built during the Andela IoT Hackathon. It basically gives 
 We've currently built a client Slack bot for Andela Slack Org which called _@stuffly_ through which you can interact with the IoT app.
 
 ## Schematic Diagram
+Simple digram explaining our setup:
+
+![stuffly-dgm-01](https://cloud.githubusercontent.com/assets/13568167/17643990/5cee937c-6183-11e6-8523-45bae93f9180.png)
 
 ## Setting Up Arduino
 
