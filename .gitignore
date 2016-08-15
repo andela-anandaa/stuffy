@@ -1,2 +1,5 @@
 stuffy.db
 .DS_Store
+
+*.py[co]
+firebase/config.py
